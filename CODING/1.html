@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Davao through our lens." />
+    <title>Davao, Unwritten</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;1,400;1,600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body class="on-cover">
+
+    <!-- NAV (always on top) -->
+    <nav class="nav">
+        <a class="wordmark" href="#" id="homeLink" aria-label="Back to title page">DAVAO<span>!</span></a>
+        <div class="nav-links">
+            <a href="#journal" data-target="journal">Start</a>
+            <a href="#route" data-view="members">Miyembro</a>
+            <a href="#about" data-target="about">Tandaan</a>
+        </div>
+    </nav>
+
+    <!-- TAB 1: TITLE PAGE -->
+    <section id="cover">
+        <img class="bg" src="samal.jpg" alt="Aerial view of a quiet bay" />
+        <div class="shade"></div>
+
+        <div class="cover-center">
+            <h1>LAKBAY SANAYSAY:</h1>
+
+            <button class="enter-pill" id="enterButton" type="button">
+        DAVAO \ SAMAL · 2026
+    </button>
+        </div>
+
+        <p class="cover-foot">Ang gawaing ito ay inihanda ng Group 1</p>
+        <p class="image-credit">Photograph by Monique Patindol</p>
+    </section>
+
+    <!-- TAB 2: TRAVELOGUE -->
+    <main id="travelogue">
+
+        <section class="intro" id="about">
+            <p class="section-label">Palaging tandaan:</p>
+            <h2>Ang paglalakbay ay alaala ng bawat hakbang.</h2>
+            <p class="intro-copy">- Group 1</p>
+        </section>
+
+        <section class="stats" id="members">
+            <div><strong>Boiser</strong><span>member</span></div>
+            <div><strong>Semblante</strong><span>member</span></div>
+            <div><strong>Suico</strong><span>member</span></div>
+            <div><strong>Cabonce</strong><span>member</span></div>
+            <div><strong>Patindol</strong><span>leader</span></div>
+            <div><strong>Vitualla</strong><span>member</span></div>
+        </section>
+
+        <section class="journal" id="journal">
+            <div class="journal-head">
+                <h2>LAKBAY SANAYSAY SA DAVAO: SAMAL</h2>
+            </div>
+            <div class="story-list">
+
+                <!-- ENTRY 01 -->
+                <article class="story">
+                    <div class="story-meta"><span>DAVAO \ SAMAL</span><span>2026</span></div>
+                    <div class="story-image-wrap">
+                        <img src="dagat.jpg" alt="Samal travel scene" />
+                        <span class="story-number">01</span>
+                    </div>
+                    <div class="story-copy">
+                        <h3>Karagatan na Nakapaligid</h3>
+                        <p>
+                            Pagdating namin sa Samal, sinalubong agad kami ng malamig na simoy ng dagat at ng mga niyog na tila nag-aabang sa amin. Sa ilalim ng malalaking puting payong, sumilip ang araw sa pagitan ng mga dahon at pinagintab ang buhangin na parang ginto. Walang
+                            nagmamadali rito; ang tanging naririnig ay ang mahinang hampas ng alon at ang halakhak ng mga taong nakalimutan na muna ang kanilang mga alalahanin. Habang nakatanaw sa malawak na karagatan, naramdaman kong bumagal ang oras,
+                            at sa sandaling iyon, gusto ko na lang manatili at namnamin ang katahimikang matagal ko nang hinahanap.
+                        </p>
+
+                        <span class="full-title" hidden>Lamig ng Samal</span>
+                        <div class="full-text" hidden>
+                            <p>Sariwang inumin, payapang dagat, at walang pagmamadali. Ganito pala ang pakiramdam ng bakasyon.</p>
+                        </div>
+
+                        <button class="readEntry" type="button" data-image="drink.jpg">
+                            tuloy ang Kwento
+                            <svg aria-hidden="true" viewBox="0 0 24 24">
+                                <path d="M5 12h13M13 6l6 6-6 6"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- ENTRY 02 -->
+                <article class="story">
+                    <div class="story-meta"><span>DAVAO \ SAMAL</span><span>2026</span></div>
+                    <div class="story-image-wrap">
+                        <img src="resto.jpg" alt="The Mani travel scene" />
+                        <span class="story-number">02</span>
+                    </div>
+                    <div class="story-copy">
+                        <h3>Kainan sa Tabi ng Dagat</h3>
+                        <p>
+                            Paliko-liko ang daan patimog, at sa bawat likong iyon ay lalo kaming ginugutom, hindi lang sa pagkain kundi sa tanawin. Hanggang sa makarating kami sa isang kainan na may malalaking bintanang salamin, kung saan bumungad agad ang asul na dagat at ang tulay
+                            na tila lumulutang sa malayo. Malamig ang simoy ng hangin mula sa ceiling fan, malambot ang upuan, at ang bawat mesa ay may maliit na halaman na parang nag-aanyaya ng mahabang kuwentuhan. Dito namin natutunan na ang pinakamasarap
+                            na pagkain ay hindi nagmamadali; hinahain ito nang dahan-dahan, kasabay ng tawanan, ng tanaw sa dagat, at ng pakiramdam na wala kaming kailangang habulin. Kaya’t umupo kami, humigop, kumain, at hinayaang humaba ang hapon.
+                        </p>
+
+                        <button class="readEntry" type="button" data-gallery="food1.jpg,food2.jpg,food3.jpg,food4.jpg">
+                            Mga pagkain
+                            <svg aria-hidden="true" viewBox="0 0 24 24">
+                                <path d="M5 12h13M13 6l6 6-6 6"></path>
+                                <span class="full-title" hidden>Kainan sa Tabi ng Dagat</span>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- ENTRY 03 -->
+                <article class="story">
+                    <div class="story-meta"><span>DAVAO \ SAMAL</span><span>2026</span></div>
+                    <div class="story-image-wrap">
+                        <img src="nights.jpg" alt="Kyparissi travel scene" />
+                        <span class="story-number">03</span>
+                    </div>
+                    <div class="story-copy">
+                        <h3>Tahimik na Liwanag</h3>
+                        <p>
+                            Paglubog ng araw, ibang mukha naman ng Samal ang bumungad sa amin. Tahimik ang paligid, at ang mga payong na kanina’y nagpapalilim ngayon ay tila mga bituing nakatayo sa gilid ng pool. Kumikinang ang tubig sa asul na ilaw, kasabay ng mga munting ilaw
+                            na nakahilera sa malayo at ng mga ilaw ng lungsod na parang mga alitaptap sa kabilang pampang. Nakahiga kami sa tabi ng pool, walang ibang naririnig kundi ang mahinang hampas ng tubig at ang sarili naming mga pag-iisip. Sa
+                            gabing iyon, naunawaan namin na hindi lang pala sa liwanag ng araw maganda ang isla, may sarili rin itong mahiwagang katahimikan kapag madilim na.
+                        </p>
+                    </div>
+                </article>
+
+
+
+                <!-- ENTRY 04 -->
+                <article class="story">
+                    <div class="story-meta"><span>DAVAO \ SAMAL</span><span>2026</span></div>
+                    <div class="story-image-wrap">
+                        <img src="sunsets.jpg" alt="Kyparissi travel scene" />
+                        <span class="story-number">04</span>
+                    </div>
+                    <div class="story-copy">
+                        <h3>Paalam, Samal</h3>
+                        <p>
+                            Habang lumilipas ang mga araw, natapos na rin ang biyahe namin sa Samal. Pinapakita ng araw na sa bawat simula ay may katapusan. Pumasok kami sa isla na maliwanag ang araw, at ngayon, aalis kami habang lumulubog ito. Masaya kami sa lahat ng nangyari,
+                            at hindi namin makakalimutan ang islang ito.
+                        </p>
+                        <button class="end-button" type="button">The End</button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <footer>
+            <p>Philippians 4:13: <br> "I can do all things through him who strengthens me."</p>
+            <div>
+                <span>Proyikto sa Filipino 12</span>
+                <span>MADE BY · GROUP 1</span>
+            </div>
+        </footer>
+    </main>
+
+    <!-- POPUP BOX: outside every article -->
+    <div id="imagePopup" class="image-popup">
+        <div class="popup-window">
+            <button id="closePopup" type="button">&times;</button>
+            <img id="popupImg" src="drink.jpg" alt="Picture">
+            <div class="popup-text">
+                <h3 id="popupTitle"></h3>
+                <div id="popupBody"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="anime.js"></script>
+</body>
+
+</html>
